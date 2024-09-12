@@ -1,0 +1,67 @@
+#banner {
+    height: 90vh;
+    background-image: url( plants.png);
+    background-size: cover;
+   
+}
+
+.btn {
+    padding: 15px 30px;
+    transform: all 0.4s ease;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 1px;
+    letter-spacing: 2px;
+}
+
+.btn-brand {
+    background-color: palegreen;
+    border: 3px solid slategray;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    color: aquamarine ;
+    border-color: cornsilk;
+}
+
+section {
+    padding: 100PX 0;
+}
+
+#about h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#about .btn-brand:hover {
+    color: black !important;
+    border-color: black !important;
+}
+
+#about {
+    background-color: burlywood;
+}
+
+.mvp {
+    width: 40%;
+}
+
+#services .btn-brand:hover {
+    color: black !important;
+    border-color: black !important;
+}
+#services h2 {
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#services {
+    background-color: gray;
+}
